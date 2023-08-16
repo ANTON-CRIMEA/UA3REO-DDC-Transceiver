@@ -583,6 +583,7 @@ extern struct TRX_SETTINGS {
 	bool NOISE_BLANKER;
 	bool Beeper;
 	bool FM_Stereo;
+	bool NAU_Speaker;
 	bool AGC_Spectral;
 	bool VOX;
 	bool TX_CESSB;

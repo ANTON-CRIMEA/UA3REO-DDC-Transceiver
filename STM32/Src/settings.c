@@ -278,6 +278,7 @@ void LoadSettings(bool clear) {
 		TRX.CTCSS_Freq = 0;                                            // CTCSS FM Frequency
 		TRX.SELFHEAR_Volume = 40;                                      // Selfhearing volume
 		TRX.FM_Stereo = false;                                         // Stereo FM Mode
+		TRX.NAU_Speaker = false;                                       // Speaker NAU
 		TRX.VAD_THRESHOLD = 150;                                       // Threshold of SSB/SCAN squelch
 		TRX.VOX = false;                                               // TX by voice activation
 		TRX.VOX_TIMEOUT = 300;                                         // VOX timeout in ms
